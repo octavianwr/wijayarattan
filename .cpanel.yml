@@ -1,0 +1,7 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wijt3258/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    
